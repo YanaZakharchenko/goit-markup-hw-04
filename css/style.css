@@ -183,8 +183,8 @@ img {
 
 /* СЕКЦИЯ 2 */
 
-.features {
-  padding-bottom: 94px;
+.section-size.features {
+  padding-top: 0;
 }
 
 .features-title {
@@ -203,9 +203,8 @@ img {
 
 /* СЕКЦИЯ 3 */
 /* h2 = .features-title  секции 2*/
-.section-team {
+.section-size.team {
   background-color: var(--color-original);
-  padding: 94px 0;
 }
 
 .team-list {
