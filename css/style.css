@@ -303,6 +303,7 @@ img {
 .clients-icons:hover,
 .clients-icons:focus {
   color: var(--color-blue);
+  border: 1px solid var(--color-blue);
 }
 
 /* ФУТЕР */
