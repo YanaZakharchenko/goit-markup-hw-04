@@ -257,25 +257,43 @@ img {
   margin-right: 0;
 }
 
+.team-size {
+  padding: 30px 44px;
+}
+
 .member-team {
   font-weight: 500;
   color: var(--color-dark);
-
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .position-team {
   font-weight: 400;
   color: var(--color-gray);
-
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
 
 .member-team,
 .position-team {
   font-size: 16px;
   text-align: center;
+}
+
+.team-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link {
+  fill: var(--color-icons);
+}
+
+.social-link:hover,
+.social-link:focus {
+  fill: var(--color-white);
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-blue);
 }
 
 /* Секция 4 */
@@ -285,29 +303,21 @@ img {
   justify-content: space-between;
 }
 
-.clients-icons {
+.clients {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   width: 170px;
   height: 90px;
-
   border-radius: 4px;
   border: var(--border-clients);
-}
-
-.clients {
   fill: var(--color-icons);
-}
-
-.clients-icons:hover,
-.clients-icons:focus {
-  border-color: var(--color-blue);
 }
 
 .clients:hover,
 .clients:focus {
   fill: var(--color-blue);
+  border-color: var(--color-blue);
 }
 
 /* ФУТЕР */
@@ -351,6 +361,10 @@ img {
 .info-link:hover,
 .info-link:focus {
   color: var(--color-blue);
+}
+
+.footer-nav {
+  display: flex;
 }
 
 /* ПОРТФОЛИО */
