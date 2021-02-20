@@ -111,6 +111,7 @@ img {
 
 .header-phone {
   fill: currentColor;
+  margin-right: 10px;
 }
 
 .header-link:hover,
@@ -327,9 +328,17 @@ img {
 
 /* ФУТЕР */
 
-.info {
+.footer-info {
   background-color: var(--color-graphite);
   padding: 60px 0;
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-sixe {
+  margin-right: 70px;
 }
 
 .footer-logo {
@@ -368,8 +377,14 @@ img {
   color: var(--color-blue);
 }
 
-.footer-nav {
+.footer-list {
   display: flex;
+}
+
+.footer-link {
+  width: 44px;
+  height: 44px;
+  fill: var(--color-white);
 }
 
 /* ПОРТФОЛИО */
