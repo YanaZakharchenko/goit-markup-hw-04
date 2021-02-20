@@ -302,8 +302,12 @@ img {
 
 .clients-icons:hover,
 .clients-icons:focus {
-  color: var(--color-blue);
-  border: 1px solid var(--color-blue);
+  border-color: var(--color-blue);
+}
+
+.clients:hover,
+.clients:focus {
+  fill: var(--color-blue);
 }
 
 /* ФУТЕР */
