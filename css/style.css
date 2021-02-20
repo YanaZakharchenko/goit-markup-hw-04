@@ -6,6 +6,7 @@
   --color-lightgray: rgba(255, 255, 255, 0.6);
   --color-graphite: #2f303a;
   --color-original: #f5f4fa;
+  --color-icons: #afb1b8;
   --border-portfolio: 1px solid #ececec;
   --border-projects: 1px solid #eeeeee;
   --border-clients: 1px solid #afb1b8;
@@ -281,21 +282,20 @@ img {
 
 .clients {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 170px;
   height: 90px;
-
   border-radius: 4px;
-  border: var(--border-clients);
-}
 
-.clients-icon {
+  fill: var(--color-icons);
+  border: var(--border-clients);
 }
 
 .clients:hover,
 .clients:focus {
   fill: var(--color-blue);
+  border: var(--color-blue);
 }
 
 /* ФУТЕР */
