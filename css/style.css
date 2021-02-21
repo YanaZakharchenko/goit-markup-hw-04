@@ -10,6 +10,7 @@
   --border-portfolio: 1px solid #ececec;
   --border-projects: 1px solid #eeeeee;
   --border-clients: 1px solid #afb1b8;
+  --background-icons: rgba(255, 255, 255, 0.1);
   --shadow-card: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   --shadow-project: 0px 1px 1px rgba(0, 0, 0, 0.12),
@@ -198,11 +199,9 @@ img {
 .section-title {
   font-size: inherit;
   font-weight: 700;
-  line-height: 1.14;
   text-transform: uppercase;
 
   color: var(--color-dark);
-
   margin-bottom: 10px;
 }
 
@@ -298,7 +297,6 @@ img {
 .social-link:focus {
   fill: var(--color-white);
   border-radius: 50%;
-  border: none;
   background-color: var(--color-blue);
 }
 
@@ -337,7 +335,7 @@ img {
   display: flex;
 }
 
-.footer-sixe {
+.footer-size {
   margin-right: 70px;
 }
 
@@ -360,13 +358,11 @@ img {
 
 .info-address {
   color: var(--color-white);
-
   margin-top: 20px;
 }
 
 .info-link {
   color: rgba(255, 255, 255, 0.6);
-
   margin-top: 9px;
 }
 
@@ -381,10 +377,29 @@ img {
   display: flex;
 }
 
+.footer-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 20px;
+}
+
 .footer-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  background-color: var(--background-icons);
   fill: var(--color-white);
+  margin-right: 10px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--color-blue);
 }
 
 /* ПОРТФОЛИО */
